@@ -61,7 +61,9 @@ Apify-сркапинг
 
 ```
 project/
-│
+│ 
+├── часть 2 и 3 - решение частей 2 и 3 из задания
+│ 
 ├── analysis/
 │   ├── analysis.ipynb - парсинг и формирование фичей 
 │   ├── анализ_блогеров.md
@@ -174,22 +176,22 @@ Semantic embedding → фильтр определяющий похожесть 
         Instagram data
               |
               |
-                            ↓
+↓
         LLM extraction
               |
-                            ↓
+↓
     candidate_profile.json
               |
               |
         +------------+
         |            |
-                ↓                         ↓
+↓                         ↓
 Hard filters    Semantic embedding
 
 (метрики)      (эстетика/смысл)
 
             |
-                        ↓
+↓
        final_score
 ```
 
