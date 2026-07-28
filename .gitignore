@@ -1,0 +1,20 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.cache/
+
+
+# Пользовательские документы, загруженные для теста
+*.txt
+*.pdf
+*.docx
+!requirements.txt
+!README.md
+
