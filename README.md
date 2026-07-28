@@ -185,7 +185,7 @@ Semantic embedding → фильтр определяющий похожесть 
               |
         +------------+
         |            |
-          ↓            ↓
+        ↓            ↓
 Hard filters    Semantic embedding
 
 (метрики)      (эстетика/смысл)
