@@ -214,7 +214,7 @@ ideal_profile_embedding
           |
      cosine similarity
           |
-                    ↓
+          ↓
 candidate_embedding
 ```
 
