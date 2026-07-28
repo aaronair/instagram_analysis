@@ -170,27 +170,28 @@ prompt = """ На основе анализа успешных блогеров 
 Hard filters → фильтр по числовым параметрам/метрикам.
 Semantic embedding → фильтр определяющий похожесть по эстетике, нише и подаче.
 
-
-Instagram data
-        |
-        |
-        ↓
-LLM extraction
-        |
-        ↓
-candidate_profile.json
-        |
-        |
+```
+        Instagram data
+              |
+              |
+                            ↓
+        LLM extraction
+              |
+                            ↓
+    candidate_profile.json
+              |
+              |
         +------------+
         |            |
-        ↓                         ↓
+                ↓                         ↓
 Hard filters    Semantic embedding
 
 (метрики)      (эстетика/смысл)
 
-        |
-        ↓
-final_score
+            |
+                        ↓
+       final_score
+```
 
 Итоговый score считается так:
 ```
@@ -204,13 +205,14 @@ final_score = (
 Где metric\_score это комбинация параметров: followers, median\_ER, er\_stability\_ratio, video_ratio, posts/month, наличие ниш в bio.
 
 Embedding\_similarity (30%) это 
+
 ```
 ideal_profile_embedding
           |
           |
      cosine similarity
           |
-          ↓
+                    ↓
 candidate_embedding
 ```
 
