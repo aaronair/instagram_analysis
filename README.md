@@ -176,22 +176,22 @@ Semantic embedding → фильтр определяющий похожесть 
         Instagram data
               |
               |
-↓
+              ↓
         LLM extraction
               |
-↓
+              ↓
     candidate_profile.json
               |
               |
         +------------+
         |            |
-↓                         ↓
+          ↓            ↓
 Hard filters    Semantic embedding
 
 (метрики)      (эстетика/смысл)
 
             |
-↓
+            ↓
        final_score
 ```
 
