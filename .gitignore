@@ -13,8 +13,6 @@ __pycache__/
 
 # Пользовательские документы, загруженные для теста
 *.txt
-*.pdf
-*.docx
 !requirements.txt
 !README.md
 
